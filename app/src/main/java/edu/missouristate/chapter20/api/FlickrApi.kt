@@ -1,9 +1,11 @@
 package edu.missouristate.chapter20.api
 
+import android.util.Log
 import retrofit2.http.Query
 import retrofit2.http.GET
 
 private const val API_KEY = "8dc1548b0dc63d9e1ea64799af44ee0e"
+private const val TAG = "FlickrApi"
 
 interface FlickrApi {
 
