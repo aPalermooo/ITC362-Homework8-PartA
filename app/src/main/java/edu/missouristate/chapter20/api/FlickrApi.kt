@@ -17,5 +17,8 @@ interface FlickrApi {
         @Query("format") format: String = "json",
         @Query("nojsoncallback") noJsonCallback: Int = 1,
         @Query("extras") extras: String = "url_s",
+
+//        Part B
+        @Query("date") date: String
     ): FlickrResponse
 }
